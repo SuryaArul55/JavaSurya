@@ -1,0 +1,18 @@
+package com.logger_demo;
+
+import org.apache.log4j.BasicConfigurator;
+import org.apache.log4j.Logger;
+
+public class propertyconfiguration {
+	//factory design pattern
+	static Logger Log=Logger.getLogger(Basic_configuration.class);
+public static void main(String[] args) {
+	//configuration 
+	BasicConfigurator.configure();
+	Log.debug("Debug");
+	Log.info("Info");
+	Log.warn("warning");
+	Log.error("Error");
+	Log.fatal("fatal");
+}
+}

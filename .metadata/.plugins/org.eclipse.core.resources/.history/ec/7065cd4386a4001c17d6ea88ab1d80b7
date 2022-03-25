@@ -1,0 +1,13 @@
+package Utilitypoi;
+
+import java.io.IOException;
+
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+
+public class Readx {
+public static void main(String[] args) throws IOException {
+	String fileLocation="./testdata/adactin.xlsx";  //locator
+	XSSFWorkbook wbook=new XSSFWorkbook(fileLocation);
+	
+}
+}
