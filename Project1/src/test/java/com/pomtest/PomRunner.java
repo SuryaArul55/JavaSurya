@@ -7,10 +7,10 @@ import org.apache.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 
 import com.Project1.Baseclass;
-import com.pom.Booklitpage;
-import com.pom.Detailpage;
-import com.pom.DetailsConpage;
-import com.pom.Homepage;
+import com.adactinpom.Booklitpage;
+import com.adactinpom.Detailpage;
+import com.adactinpom.DetailsConpage;
+import com.adactinpom.Homepage;
 
 public class PomRunner extends Baseclass  {
 
@@ -25,10 +25,10 @@ public class PomRunner extends Baseclass  {
 		geturl("http://adactin.com/HotelApp/index.php");
 		Log.info("Url Launch");
 		implicitwait(3000,TimeUnit.SECONDS);
-		inputonElement(home.getUserna(),Particulardata("C:\\Users\\Admin\\eclipse-workspace\\Project1\\testdata\\adactin.xlsx",7,5));
-		inputonElement(home.getPasswrd(),Particulardata("C:\\Users\\Admin\\eclipse-workspace\\Project1\\testdata\\adactin.xlsx",8,5));
+		inputonElement(home.getUserna(),Particulardata("C:\\Users\\Admin\\eclipse-workspace\\Project1\\testdata\\adactin new.xlsx",2,5));
+		inputonElement(home.getPasswrd(),Particulardata("C:\\Users\\Admin\\eclipse-workspace\\Project1\\testdata\\adactin new.xlsx",3,5));
 		clickonElement(home.getLogin());
-	
+		implicitwait(3000,TimeUnit.SECONDS);
 		 dropdown("Visibletext",detail.getLocation(),"Melbourne");
 		 dropdown("visibletext",detail.getHotel(),"Hotel Sunshine");
 		 dropdown("visibletext",detail.getRoom(),"Double");

@@ -2,10 +2,10 @@ package com.manager;
 
 import org.openqa.selenium.WebDriver;
 
-import com.pom.Booklitpage;
-import com.pom.Detailpage;
-import com.pom.DetailsConpage;
-import com.pom.Homepage;
+import com.adactinpom.Booklitpage;
+import com.adactinpom.Detailpage;
+import com.adactinpom.DetailsConpage;
+import com.adactinpom.Homepage;
 
 public class Managerpgm {
 public WebDriver driver;

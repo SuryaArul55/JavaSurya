@@ -17,8 +17,9 @@ public  static void Paticularcell() throws IOException {
 	File f=new File("C:\\Users\\Admin\\eclipse-workspace\\Project1\\testdata\\demo.xlsx");
     FileInputStream fl= new FileInputStream(f);
     XSSFWorkbook wb=new XSSFWorkbook(fl);
-   XSSFSheet s=wb.getSheetAt(0);
-         XSSFRow r=s.getRow(2);
+  
+    XSSFSheet s=wb.getSheetAt(0);
+            XSSFRow r=s.getRow(2);
          XSSFCell c=r.getCell(2);
          CellType type=c.getCellType();
          if(type.equals(CellType.STRING)){

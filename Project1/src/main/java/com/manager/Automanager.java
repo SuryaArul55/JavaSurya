@@ -9,6 +9,8 @@ import com.autopom.Myaccount;
 import com.autopom.Payment;
 import com.autopom.Shippingpro;
 import com.autopom.Summarypage;
+import com.autopom.Thirdorder;
+import com.autopom.Womendress;
 
 
 
@@ -16,13 +18,14 @@ public class Automanager {
 	public WebDriver driver;
 	 private Loginpage Login  ;
 	 private Myaccount acc;
-	 private Addcart addc;
-	 private Summarypage summary;
-	 private Address adds;
+	 private Addcart adds;
+	 private Summarypage summ;
+	 private Address addres;
 	 private Shippingpro ship;
-	 private Payment paym;
-	 
-	 public Automanager (WebDriver driver1){
+	 private Payment pay;
+	 private Womendress wome;
+	private Thirdorder third;
+			 public Automanager (WebDriver driver1){
 		 
 		this.driver=driver1;
 	 	 }
@@ -38,23 +41,23 @@ acc=new Myaccount(driver);
 }
 return acc;
 }
-public Addcart get_Instance_addc() {
-if(addc==null) {
-addc=new Addcart(driver);
-}
-return addc;
-}
-public Summarypage get_Instance_summary() {
-if(summary==null) {
-summary=new Summarypage(driver);
-}
-return summary;
-}
-public Address get_Instance_adds() {
+public Addcart get_Instance_adds() {
 if(adds==null) {
-adds=new Address(driver);
+adds=new Addcart(driver);
 }
 return adds;
+}
+public Summarypage get_Instance_summ() {
+if(summ==null) {
+summ=new Summarypage(driver);
+}
+return summ;
+}
+public Address get_Instance_addres() {
+if(addres==null) {
+addres=new Address(driver);
+}
+return addres;
 }
 public Shippingpro get_Instance_ship() {
 if(ship==null) {
@@ -62,11 +65,24 @@ ship=new Shippingpro(driver);
 }
 return ship;  
 }
-public Payment get_Instance_paym() {
-if(paym==null) {
-paym=new Payment(driver);
+public Payment get_Instance_pay() {
+if(pay==null) {
+pay=new Payment(driver);
 }
-return paym;
+return pay;
+}
+
+public Womendress get_Instance_wome() {
+	if(wome==null) {
+	   wome=new Womendress(driver);
+	}
+return wome;
+}
+public Thirdorder get_Instance_third() {
+	if(third==null) {
+	   third=new Thirdorder(driver);
+	}
+return third;
 }
 
 }

@@ -45,8 +45,13 @@ public static String value;
 	}
 
 	public static void clickonElement(WebElement element) {
-		// singin_btnclick();
+		
 		element.click();
+	}
+
+	private static void singin_btnclick() {
+		// TODO Auto-generated method stub
+		singin_btnclick();
 	}
 
 	public static void inputonElement(WebElement pass, String data) {
@@ -170,7 +175,8 @@ public static String Particulardata(String path,int row_Index,int cell_Index) th
 	XSSFRow row=SheetAt.getRow(row_Index);
 	org.apache.poi.ss.usermodel.Cell cell=row.getCell(cell_Index);
     org.apache.poi.ss.usermodel.CellType type=cell.getCellType();
-    		if(type.equals(org.apache.poi.ss.usermodel.CellType.STRING)){
+    		
+    if(type.equals(org.apache.poi.ss.usermodel.CellType.STRING)){
     		value=cell.getStringCellValue();
 }
 else if(type.equals(org.apache.poi.ss.usermodel.CellType.NUMERIC)) {

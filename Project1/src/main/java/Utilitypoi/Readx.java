@@ -16,5 +16,6 @@ public static void main(String[] args) throws IOException {
 	XSSFCell cell=row.getCell(1);
 	String value=cell.getStringCellValue();
 	System.out.println(value);
+	
 }
 }

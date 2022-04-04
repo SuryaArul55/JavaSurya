@@ -1,8 +1,0 @@
-package com.logger_demo;
-
-import org.apache.log4j.Logger;
-
-public class propertyconfiguration {
-static Logger Log=Logger.getLogger(propertyconfiguration.class);
-
-}            
