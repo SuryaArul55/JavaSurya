@@ -1,4 +1,4 @@
-package com.Cucumberp2;
+package com.CucumberP2;
 
 import static org.junit.Assert.assertTrue;
 
