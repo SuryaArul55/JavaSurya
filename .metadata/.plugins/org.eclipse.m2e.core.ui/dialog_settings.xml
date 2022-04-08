@@ -25,10 +25,15 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="com.CucumberP2"/>
+			<item value="com.Cucumberp2"/>
 		</list>
 		<list key="groupId">
+			<item value="com"/>
 		</list>
 		<list key="artifactId">
+			<item value="CucumberP2"/>
+			<item value="Cucumberp2"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -44,12 +49,10 @@
 	</section>
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
-			<item value="com"/>
 		</list>
 		<list key="name">
 		</list>
 		<list key="artifactId">
-			<item value="cucumberautomate"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -65,6 +68,7 @@
 	</section>
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="C:\Users\Admin\eclipse-workspace\cucumberautom"/>
 			<item value="C:\Users\Admin\eclipse-workspace\Project1"/>
 			<item value="C:\Users\Admin\eclipse-workspace\Cucumber1\src\main\java"/>
 			<item value="C:\Users\Admin\eclipse-workspace\Cucumber1"/>

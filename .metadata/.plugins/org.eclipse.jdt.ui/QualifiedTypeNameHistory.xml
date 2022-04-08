@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="org.openqa.selenium.By"/>
-<fullyQualifiedTypeName name="com.pom.Loginpage"/>
-<fullyQualifiedTypeName name="java.util.concurrent.TimeUnit"/>
-<fullyQualifiedTypeName name="com.pom.Homepage"/>
-<fullyQualifiedTypeName name="com.pom.Detailpage"/>
-<fullyQualifiedTypeName name="com.pom.DetailsConpage"/>
-<fullyQualifiedTypeName name="com.pom.Booklitpage"/>
-<fullyQualifiedTypeName name="com.pomanager.Mmanagerrunner"/>
 <fullyQualifiedTypeName name="com.manager.Managerpgm"/>
 <fullyQualifiedTypeName name="org.openqa.selenium.WebDriver"/>
 <fullyQualifiedTypeName name="com.autopom.Loginpage"/>
@@ -20,7 +12,6 @@
 <fullyQualifiedTypeName name="com.manager.Automanager"/>
 <fullyQualifiedTypeName name="org.apache.poi.xssf.usermodel.XSSFRow"/>
 <fullyQualifiedTypeName name="org.apache.poi.xssf.usermodel.XSSFCell"/>
-<fullyQualifiedTypeName name="java.io.File"/>
 <fullyQualifiedTypeName name="org.apache.poi.ss.usermodel.Sheet"/>
 <fullyQualifiedTypeName name="java.io.FileOutputStream"/>
 <fullyQualifiedTypeName name="java.io.FileInputStream"/>
@@ -50,14 +41,23 @@
 <fullyQualifiedTypeName name="org.testng.Assert"/>
 <fullyQualifiedTypeName name="org.testng.asserts.SoftAssert"/>
 <fullyQualifiedTypeName name="com.configuration.adactin.Reader_adactinmanager"/>
-<fullyQualifiedTypeName name="com.Project1.Baseclass"/>
 <fullyQualifiedTypeName name="org.junit.BeforeClass"/>
 <fullyQualifiedTypeName name="org.testng.annotations.BeforeMethod"/>
 <fullyQualifiedTypeName name="org.testng.annotations.AfterMethod"/>
-<fullyQualifiedTypeName name="org.testng.annotations.Test"/>
 <fullyQualifiedTypeName name="com.autopom.Womendress"/>
 <fullyQualifiedTypeName name="org.openqa.selenium.support.FindBy"/>
 <fullyQualifiedTypeName name="org.openqa.selenium.WebElement"/>
 <fullyQualifiedTypeName name="org.openqa.selenium.support.PageFactory"/>
 <fullyQualifiedTypeName name="com.autopom.Thirdorder"/>
+<fullyQualifiedTypeName name="org.testng.internal.ITestResultNotifier"/>
+<fullyQualifiedTypeName name="org.testng.ITestResult"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.ie.InternetExplorerDriver"/>
+<fullyQualifiedTypeName name="io.restassured.RestAssured"/>
+<fullyQualifiedTypeName name="junit.framework.Assert"/>
+<fullyQualifiedTypeName name="java.io.File"/>
+<fullyQualifiedTypeName name="java.io.FileReader"/>
+<fullyQualifiedTypeName name="org.json.simple.JSONObject"/>
+<fullyQualifiedTypeName name="org.testng.annotations.Test"/>
+<fullyQualifiedTypeName name="com.Project1.Baseclass"/>
+<fullyQualifiedTypeName name="org.junit.Assert"/>
 </qualifiedTypeNameHistroy>

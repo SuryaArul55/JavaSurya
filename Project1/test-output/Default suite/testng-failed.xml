@@ -3,15 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.testngpgm.Testngauto">
+      <class name="Restapi.Autoapi">
         <methods>
-          <include name="Signout"/>
-          <include name="sigin"/>
-          <include name="Womendress"/>
-          <include name="Thirdorder"/>
-          <include name="women"/>
+          <include name="Data_validation"/>
         </methods>
-      </class> <!-- com.testngpgm.Testngauto -->
+      </class> <!-- Restapi.Autoapi -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
